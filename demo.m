@@ -13,7 +13,7 @@ end
 disp('Building Tree');
 
 I = im2double(imread('Images/CC.png'));
-fastRun = true;
+fastRun = false;
 if fastRun
     I = imresize(I,[65 65]);
 end
